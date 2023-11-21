@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(../images/Background.jpg) no-repeat center fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
+
+/*Barra de navegación*/
+#navbar{
+    overflow: auto;
+    backdrop-filter: blur(5px);
+}
+.container{
+    margin: 0;
+    width:100%;
+    height:60px;
+    position: block;
+    text-align: left;
+}
+#navbar .container .logotype{
+    float: left;
+}
+#navbar ul{
+    float: right;
+}
+#navbar ul li{
+    float: left;
+}
+#navbar ul li a{
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    text-decoration: none;
+    color: #ffffff;
+}
+#navbar ul li a:hover{
+    background-color:#000000;
+    color: red;
+}
+.textbutton{
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+/*Nosotros*/
+.sec{
+    backdrop-filter: blur(5px);
+    margin: 5px;
+    padding: 5px;
+}
+.title{
+    text-align: center;
+font-family: roboto;
+    font-size: 5em;
+    color: #ffffff;
+}
+.text{
+    margin: 5px;
+    padding: 5px;
+    text-align: justify;
+font-family:'Lato', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+}
+/*contacto*/
+.cafech .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.cafech .sec {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.cafech .col {
+    flex-basis: 45%;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.cafech .fw-bold {
+    font-weight: bold;
+}
+
+.cafech .fs-1 {
+    font-size: 2em;
+}
+
+.cafech .text-center {
+    text-align: center;
+}
+
+.cafech .d-flex {
+    display: flex;
+}
+
+.cafech .fw-arial {
+    font-weight: normal;
+}
+
+.cafech .fs-3 {
+    font-size: 1em;
+}
+
+.cafech .text-justify {
+    text-align: justify;
+}
+
+.cafech .R label, .cafech .R input[type=text], .cafech .R textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+
+.cafech .R input[type=submit] {
+    background-color: #6C5634; /* color café */
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.cafech .R input[type=submit]:hover {
+    background-color: #7C6644; /* color café oscuro */
+}
+
+
+.R input[type=submit] {
+    background-color: #6C5634; /* color café */
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.R input[type=submit]:hover {
+    background-color: #7C6644; /* color café oscuro */
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    
+
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+   
+border-radius: 5px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+}
+
+
+select {
+   
+width: 100%;
+    
+   
+padding: 10px;
+    
+   
+margin-bottom: 10px;
+}
+
+.opciones-pago {
+    
+   
+display: none;
+    border: 1px solid #ccc;
+    
+   
+padding: 10px;
+    margin-top: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
